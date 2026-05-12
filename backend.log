@@ -1,0 +1,22 @@
+nohup: ignoring input
+
+> agriconnect-backend@1.0.0 start
+> node server.js
+
+/home/emmanuel/agriconnect-backend/models/product.js:4
+const Product = sequelize.define('Product', {
+                          ^
+
+TypeError: sequelize.define is not a function
+    at Object.<anonymous> (/home/emmanuel/agriconnect-backend/models/product.js:4:27)
+    at Module._compile (node:internal/modules/cjs/loader:1705:14)
+    at Object..js (node:internal/modules/cjs/loader:1838:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/home/emmanuel/agriconnect-backend/models/index.js:70:12)
+
+Node.js v22.22.1
